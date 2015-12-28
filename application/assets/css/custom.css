@@ -1,0 +1,98 @@
+
+body{
+    /*background-image: url('../images/Oregano-food.jpg');*/
+}
+.footer{
+    color: black;
+    background: gray;
+    padding: 10px 5px;
+}
+.search_form{
+    margin-bottom: 10px
+}
+
+.item_diss_new{
+    float: left;    
+    background:none repeat scroll 0 0 ghostwhite;
+    /*color: black;*/
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.success{
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.carousel-caption{
+    top:40%;
+    background-color: orange;
+}
+
+.product_list{
+    min-height: 600px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+.cart_item{
+    background: none repeat scroll 0 0 white;
+    /*min-height: 444px;*/
+    width: 26%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    position: fixed;
+    right: 10px;
+    z-index: 999; 
+    overflow-x: scroll;
+}
+.item{
+    /*height: 126px;*/
+    background-color: ghostwhite;   
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.item_title{
+    font-size: 2.4em;
+}
+.item_info{
+    height: 65px;    
+    background-color: gainsboro;
+    font-size: 0.8em;
+    margin-right: 20px;
+}
+.item_discription{
+    font-size: 1.4em;
+    height: 100%;
+    line-height: 65px;
+}
+.item_price{
+    line-height: 65px;
+    text-align: right;
+    font-size: 1.5em;
+}
+.item_quantity{    
+    padding: 15px 0;        
+}
+.login{
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
